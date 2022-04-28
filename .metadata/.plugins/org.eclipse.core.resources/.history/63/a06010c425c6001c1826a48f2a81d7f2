@@ -1,0 +1,10 @@
+package com.example.demo.model;
+
+public class Domanda {
+	private int id;
+	private String domanda;
+	private int numRisposte;
+	private int codSondaggio;
+	
+	
+}

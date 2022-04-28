@@ -1,0 +1,10 @@
+package com.example.demo.model;
+
+public class Utente {
+	private int Id;
+	private String Username;
+	private String Password;
+	private String Tipologia;
+	
+	
+}

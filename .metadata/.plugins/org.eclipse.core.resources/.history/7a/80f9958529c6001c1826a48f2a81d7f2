@@ -1,0 +1,39 @@
+package com.example.demo.model;
+
+public class RispostaAmmessa {
+	private int id;
+	private String risposta;
+	private int codDomanda;
+	
+	public RispostaAmmessa(int id, String risposta, int codDomanda) {
+		super();
+		this.id = id;
+		this.risposta = risposta;
+		this.codDomanda = codDomanda;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getRisposta() {
+		return risposta;
+	}
+
+	public void setRisposta(String risposta) {
+		this.risposta = risposta;
+	}
+
+	public int getCodDomanda() {
+		return codDomanda;
+	}
+
+	public void setCodDomanda(int codDomanda) {
+		this.codDomanda = codDomanda;
+	}
+	
+}

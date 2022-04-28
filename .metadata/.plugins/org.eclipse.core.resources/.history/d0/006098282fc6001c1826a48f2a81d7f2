@@ -1,0 +1,6 @@
+spring.mvc.view.prefix: /WEB-INF/jsp/
+spring.mvc.view.suffix: .html
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/sondaggi
+spring.datasource.username=root
+spring.datasource.password=quinte
+spring.datasource.driver-class-name =com.mysql.jdbc.Driver
